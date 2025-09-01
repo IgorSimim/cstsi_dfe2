@@ -1,0 +1,88 @@
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f00;
+}
+
+img.pizza-grande {
+    width: 100%;
+}
+
+p, li {
+    font-size: 1.2em; 
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+header, article, #diferenciais, #cardapio, #mapa, #contato {
+    width: 80%;
+    margin: auto;
+}
+
+article h2 {
+    text-align: center;
+    color: #f00;
+}
+
+section h2 {
+    margin-top: 100px;
+}
+
+#diferenciais h2 {
+    color: green;
+}
+
+#diferenciais ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 35%;
+}
+
+#diferenciais ul li {
+    line-height: 1.8;
+}
+
+#diferenciais img {
+    width: 50%;
+}
+#cardapio {
+    background-color: #eee;
+}
+.cardapio-card {
+    display: inline-block;
+    width: 33%;
+}
+.cardapio-card img { 
+    width: 100%;
+    padding: 0px 3px;
+}
+.cardapio-card p {
+    margin-top: 0;
+    padding-left: 3px;
+}
