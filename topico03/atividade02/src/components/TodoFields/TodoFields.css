@@ -1,0 +1,39 @@
+.todo-form {
+  margin-top: -2.0rem;
+}
+
+label {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #333;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #f9f9f9;
+  border: 1px solid #6366f1;
+  color: #243546;
+  border-radius: 6px;
+  padding: 0.6rem 1.2rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #6366f1;
+  color: white;
+}
+
+.text,
+.title {
+  color: #243546;
+  margin-bottom: -0.5rem;
+}

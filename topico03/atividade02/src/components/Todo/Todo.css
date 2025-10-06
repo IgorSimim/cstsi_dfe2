@@ -1,0 +1,59 @@
+.todo-card {
+  background-color: #e8e6e6;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px auto;
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.todo-card.done {
+  background-color: #d4f4d4;
+  text-decoration: line-through;
+}
+
+.todo-actions button {
+  margin: 0 5px;
+  font-size: 1.2em;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.new-step-box {
+  background-color: #bfe4f1;
+  border: 2px dashed #5555ff;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.new-step-box input {
+  width: 80%;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.step-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.description-header {
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.description-body ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.step-done {
+  text-decoration: line-through;
+  color: gray;
+}
