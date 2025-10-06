@@ -1,0 +1,78 @@
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.todo-card {
+  background-color: #e9e6e6;
+  border-radius: 15px;
+  padding: 1rem;
+  width: 80%;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.todo-card.done {
+  background-color: #b5f5b5;
+  text-decoration: line-through;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-top: -0.5rem;
+}
+
+.icon-delete:hover {
+  border-radius: 20%;
+  background-color: rgb(243, 78, 78);
+}
+
+.icon-edit:hover {
+  border-radius: 20%;
+  background-color: rgb(78, 243, 173);
+}
+
+.icon-step:hover {
+  border-radius: 20%;
+  background-color: rgb(78, 173, 243);
+}
+
+.icon-teste {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.icon-teste:hover {
+  border-radius: 20%;
+  background-color: rgb(243, 78, 78);
+}
+
+ol {
+  text-align: center;
+}
+
+.add-step {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.add-step input {
+  flex: 1;
+  padding: 0.3rem;
+}
+
+.descricao-toggle {
+  color: #243546;
+}
+
+.etapas-toggle {
+  color: #243546;
+}
